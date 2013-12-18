@@ -2,19 +2,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kirgor.tools</groupId>
+    <groupId>com.kirgor.enklib</groupId>
     <artifactId>sql</artifactId>
     <version>0.2</version>
     <packaging>jar</packaging>
 
+    <name>Enklib SQL</name>
+    <description>Library, which provides very lightweight ORM and doesn't require any configuration files</description>
+    <url>http://enklib.kirgor.com/sql</url>
+
     <dependencies>
         <dependency>
-            <groupId>com.kirgor.tools</groupId>
+            <groupId>com.kirgor.enklib</groupId>
             <artifactId>common</artifactId>
             <version>0.1.3</version>
         </dependency>
         <dependency>
-            <groupId>com.kirgor.tools</groupId>
+            <groupId>com.kirgor.enklib</groupId>
             <artifactId>compile</artifactId>
             <version>0.1</version>
         </dependency>

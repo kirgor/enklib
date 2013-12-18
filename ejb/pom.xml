@@ -4,10 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kirgor.tools</groupId>
+    <groupId>com.kirgor.enklib</groupId>
     <artifactId>ejb</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
+
+    <name>Enklib EJB</name>
+    <description>
+        Library, which allows to create EJB-powered service with RESTful API (via JAX-RS),
+        password based authentication, persistent sessions identified by cookies, and
+        data access layer powered by stored procedures
+    </description>
+    <url>http://enklib.kirgor.com/ejb</url>
 
     <dependencies>
         <dependency>
@@ -17,17 +25,17 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.kirgor.tools</groupId>
+            <groupId>com.kirgor.enklib</groupId>
             <artifactId>common</artifactId>
             <version>0.1.3</version>
         </dependency>
         <dependency>
-            <groupId>com.kirgor.tools</groupId>
+            <groupId>com.kirgor.enklib</groupId>
             <artifactId>compile</artifactId>
             <version>0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.kirgor.tools</groupId>
+            <groupId>com.kirgor.enklib</groupId>
             <artifactId>sql</artifactId>
             <version>0.2</version>
         </dependency>

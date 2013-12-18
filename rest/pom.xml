@@ -4,10 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kirgor.tools</groupId>
+    <groupId>com.kirgor.enklib</groupId>
     <artifactId>rest</artifactId>
     <version>0.1.2</version>
     <packaging>jar</packaging>
+
+    <name>Enklib REST</name>
+    <description>Library for RESTful clients</description>
+    <url>http://enklib.kirgor.com/rest</url>
 
     <dependencies>
         <dependency>

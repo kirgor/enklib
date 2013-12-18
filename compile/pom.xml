@@ -4,10 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kirgor.tools</groupId>
+    <groupId>com.kirgor.enklib</groupId>
     <artifactId>compile</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
+
+    <name>Enklib Compile</name>
+    <description>Library for runtime in-memory compiling of Java classes</description>
+    <url>http://enklib.kirgor.com/compile</url>
 
     <dependencies>
         <dependency>
