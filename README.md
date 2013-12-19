@@ -1,12 +1,24 @@
-Enklib
-=======
-Libraries for Java, which are designed to be simple and lightweight.
+Enklib is open source framework for Java. Its components are designed to be simple and lightweight, they allow to make less code and, in most cases, no configuration files.
 
 Description
 ------------
-These libraries are intended for Java EE mostly, but nothing stops you from using all of them in Java SE as well (except of **EJB** library).
+The framework is intended for Java EE mostly, but nothing stops you from using its components in Java SE as well (except of [EJB](/kirgor/enklib/wiki/ejb) library).
 
-*Detailed documentation in form of examples and Javadocs will be available later, sorry for lack of them right now.*
+Enklib's functionality is distributed among components:
+
+1. [SQL](/kirgor/enklib/wiki/sql) - lightweight ORM, which doesn't require any configuration files.
+2. [EJB](/kirgor/enklib/wiki/ejb) - library for EJB-powered services with RESTful API (via JAX-RS), password based authentication, 3. persistent sessions identified by cookies, and data access layer powered by stored procedures.
+3. [Compile](/kirgor/enklib/wiki/compile) - runtime in-memory compiling of Java classes.
+4. [REST](/kirgor/enklib/wiki/rest) - library for RESTful clients.
+5. [Common](/kirgor/enklib/wiki/common) - other handy functions (btw, it's the core framework component)
+
+Examples
+---------
+*Will be available soon...*
+
+API documentation
+------------------
+Enklib Javadocs are available [here](http://enklib.kirgor.com/javadocs).
 
 License
 --------
