@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.kirgor.enklib</groupId>
     <artifactId>sql</artifactId>
-    <version>0.2</version>
+    <version>0.2.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Enklib SQL</name>
     <description>Library, which provides very lightweight ORM and doesn't require any configuration files.</description>
@@ -19,7 +19,7 @@
         <connection>scm:git:git@github.com:kirgor/enklib.git</connection>
         <developerConnection>scm:git:git@github.com:kirgor/enklib.git</developerConnection>
         <url>git@github.com:kirgor/enklib.git</url>
-        <tag>sql-0.2</tag>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
