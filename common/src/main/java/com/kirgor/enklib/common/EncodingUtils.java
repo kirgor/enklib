@@ -6,7 +6,7 @@ import org.apache.commons.codec.binary.Hex;
 /**
  * Contains methods related to string encoding.
  * <p/>
- * Uses Apache Common Codec library (http://commons.apache.org/proper/commons-codec/).
+ * Uses <a href="http://commons.apache.org/proper/commons-codec/">Apache Common Codec library</a>.
  */
 public abstract class EncodingUtils {
     /**

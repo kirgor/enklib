@@ -19,7 +19,7 @@ public interface AuthenticationDAO {
      * @param principal                   User's principal, which was used to register (e.g. ID or password).
      * @param passwordHash                Hashed user password.
      * @param passwordSalt                Salt, which was used to hash the password.
-     * @param extraData                   Some object, which contains extra data associated with creting user
+     * @param extraData                   Some object, which contains extra data associated with creating user
      *                                    (e.g. name, last name and other fields).
      * @throws Exception
      */
@@ -35,20 +35,20 @@ public interface AuthenticationDAO {
      * @return Entity, which represents user.
      * @throws Exception
      */
-    Object getUserByPrincipal(Session session, StoredProcedureProxyFactory storedProcedureProxyFactory,
-                              Object principal) throws Exception;
+    User getUserByPrincipal(Session session, StoredProcedureProxyFactory storedProcedureProxyFactory, Object principal) throws Exception;
 
     /**
-     * Retrieves password hash hex string from the user entity.
-     *
-     * @param user Instance of user entity class, which was just fetched from the database.
+     * Represents user entity with necessary for {@link AuthenticationDAO} fields.
      */
-    String getUserPasswordHash(Object user);
+    interface User {
+        /**
+         * Gets hex-encoded password hash.
+         */
+        String getPasswordHash();
 
-    /**
-     * Retrieves password salt hex string from the user entity.
-     *
-     * @param user Instance of user entity class, which was just fetched from the database.
-     */
-    String getUserPasswordSalt(Object user);
+        /**
+         * Gets hex-encoded password salt.
+         */
+        String getPasswordSalt();
+    }
 }

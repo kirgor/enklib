@@ -12,7 +12,7 @@ import java.lang.reflect.Modifier;
 /**
  * Contains methods related to application configuration.
  * <p/>
- * Uses Simple framework (http://simple.sourceforge.net).
+ * Uses <a href="http://simple.sourceforge.net">Simple framework</a>.
  */
 public abstract class ConfigUtils {
     /**

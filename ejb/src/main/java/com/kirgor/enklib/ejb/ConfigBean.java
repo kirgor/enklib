@@ -9,6 +9,10 @@ import java.io.File;
 import java.io.InputStream;
 import java.net.URL;
 
+/**
+ * Startup singleton bean, which is responsible for loading configuration file from WEB-INF/enklib-ejb.xml and
+ * storing service {@link Config} instance (each application server deployment, which uses Enklib EJB, has own instance).
+ */
 @Singleton
 @Startup
 public class ConfigBean {

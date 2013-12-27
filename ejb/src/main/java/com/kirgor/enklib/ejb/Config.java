@@ -8,9 +8,14 @@ import org.simpleframework.xml.Root;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * Contains configuration fields and methods to get various cached classes and class instances.
+ * Single instance of this class is stored by {@link ConfigBean}.
+ * This class is not supposed to be used by the end-user.
+ */
 @Root(name = "config")
 @SuppressWarnings("UnusedDeclaration")
-class Config {
+public class Config {
     @Element
     private String dataSourceJNDI;
     @Element
