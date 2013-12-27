@@ -219,11 +219,11 @@ public class Bean {
     }
 
     /**
-     * This method is recommended to be called instead of {@link Response.ResponseBuilder} build(),
-     * because override-method can apply several transformations to the {@link Response.ResponseBuilder}
+     * This method is recommended to be called instead of ResponseBuilder build(),
+     * because override-method can apply several transformations to the ResponseBuilder
      * like adding custom headers, cookies, etc. for all API responses.
      *
-     * @param responseBuilder {@link Response.ResponseBuilder}, which should be converted to {@link Response}.
+     * @param responseBuilder ResponseBuilder, which should be converted to {@link Response}.
      * @return {@link Response} built from responseBuilder param.
      */
     protected Response buildResponse(Response.ResponseBuilder responseBuilder) {
