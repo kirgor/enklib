@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.kirgor.enklib</groupId>
     <artifactId>rest</artifactId>
-    <version>0.1.2-SNAPSHOT</version>
+    <version>0.1.2</version>
     <packaging>jar</packaging>
     <name>Enklib REST</name>
     <description>Library for RESTful clients.</description>
@@ -20,7 +19,7 @@
         <connection>scm:git:git@github.com:kirgor/enklib.git</connection>
         <developerConnection>scm:git:git@github.com:kirgor/enklib.git</developerConnection>
         <url>git@github.com:kirgor/enklib.git</url>
-        <tag>HEAD</tag>
+        <tag>rest-0.1.2</tag>
     </scm>
     <developers>
         <developer>
